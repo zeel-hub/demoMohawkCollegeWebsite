@@ -1,0 +1,51 @@
+#study 
+{
+    border: 5px solid #780032;
+}
+
+#learn 
+{
+    border: 5px solid #B20437;
+}
+
+#work 
+{
+    border: 5px solid #F48221;
+}
+
+#image, #disclaimer, #video
+{
+    border: 5px solid black;
+}
+
+#mobile 
+{
+    display: none;
+}
+
+@media only screen and (max-width: 400px) 
+{
+    /*#disclaimer {
+        display: none;
+    }*/
+
+    #mobile {
+        display: inline-block;
+    }
+
+    #desktop {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px) 
+{
+    #disclaimer {
+        display: none;
+    }
+}
+
+iframe {
+    padding-left: 10px;
+    padding-right: 10px;
+}
